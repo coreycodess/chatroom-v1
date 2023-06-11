@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "coming soon",
+  "main": "server.ts",
+  "typings": "dist/index",
+  "scripts": {
+    "devStart1": "nodemon server.ts --port 5000 --socketHost 8003",
+    "devStart2": "nodemon server.ts --port 5001 --socketHost 8004"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.3.0",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.4",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
