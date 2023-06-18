@@ -6,7 +6,8 @@
   "typings": "dist/index",
   "scripts": {
     "devStart1": "nodemon server.ts --port 5000 --socketHost 8003",
-    "devStart2": "nodemon server.ts --port 5001 --socketHost 8004"
+    "devStart2": "nodemon server.ts --port 5001 --socketHost 8004",
+    "seedDB": "ts-node database/tables.ts"
   },
   "keywords": [],
   "author": "",
